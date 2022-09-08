@@ -1,4 +1,5 @@
 import React from 'react'
+import DarkMode from '/src/assets/darkmode'
 
 export default function Navbar() {
     return (
@@ -17,7 +18,7 @@ export default function Navbar() {
                     <a className ="nav-hover" href="#contact">Contact</a>
                     </li>
                     <li>
-                        Dark Mode
+                        <DarkMode />
                     </li>
                 </ul>
                

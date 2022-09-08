@@ -6,26 +6,25 @@ import projectData from '/src/assets/projectdata.js'
 
 export default function Projects() {
     const projectElements = projectData.map(project => {
-        return <div>
+        return <div className="project">
                 <h2>
                     {project.name}
                     </h2>
+                    <img />
                 <p>
                     {project.description}
                     </p>
-                <p>
-                    {project.tech}
-                    </p>
-                <div>
-                    {project.github}{project.demo}
+                <div className="demo">
+                    <a href={project.github}>&lt; / Code &gt;</a>  
+                    <a href={project.demo}>Demo</a>
                 </div>
         </div> 
     })
     
     return (
-        <section>
+        <section className="projects-section">
             <h1>PROJECTS</h1>
-            <div>{projectElements}</div>
+            <div className="project-container">{projectElements}</div>
         
         </section>
     )

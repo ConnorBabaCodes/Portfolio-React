@@ -3,7 +3,7 @@ export default [
         id: 1,
         name: "Project 1",
         description: "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-        tech: ["sass, typeScript, react"],
+        tech: "React",
         github: "asdf",
         demo: "fdsa",
         imageUrl: "test"
@@ -13,7 +13,7 @@ export default [
         id: 2,
         name: "Project 2",
         description: "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-        tech: ["sass, typeScript, react"],
+        tech: "React",
         github: "asdf",
         demo: "fdsa",
         imageUrl: "test"
@@ -23,7 +23,7 @@ export default [
         id: 3,
         name: "Project 3",
         description: "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-        tech: ["sass, typeScript, react"],
+        tech: "React",
         github: "asdf",
         demo: "fdsa",
         imageUrl: "test"

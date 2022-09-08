@@ -24,9 +24,18 @@ section {
   align-items: center;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 /*Navigation*/
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 5px;
+}
 
 nav {
   display: flex;
@@ -110,8 +119,28 @@ a:hover {
   margin-bottom: 15%;
 }
 
-#hero span {
+.name {
   color: var(--main-accent)
+}
+
+.HTML {
+  color: red;
+  font-weight: bold;
+}
+
+.CSS {
+  color: blue;
+  font-weight: bold;
+}
+
+.js {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.react {
+  color: #61DBFB;
+  font-weight: bold;
 }
 
 #hero h1{
@@ -137,8 +166,21 @@ a:hover {
   font-weight: bold;
 }
 
+.fa-github:hover {
+  color: #6fda44;
+  transition: .2s;
+}
+
+.fa-linkedin:hover {
+  color: #0072b1;
+  transition: .2s;
+}
+
 /*Projects*/
 
+#projects h1 {
+  padding-top: 5%;
+}
 
 .project-container {
   display: flex;
@@ -152,6 +194,8 @@ a:hover {
 .project-container * {
   color: white;
 }
+
+
 
 .project {
   padding: 2em;
@@ -176,6 +220,9 @@ a:hover {
 
 /*Testimonial*/
 
+#testimonials h1 {
+  padding-top: 5%;
+}
 .slider {
   margin: auto;
   width: 80%;
@@ -187,11 +234,22 @@ a:hover {
   width: 60%;
 }
 
-
+.testimonial-content {
+  margin: auto;
+  max-width: 60%;
+}
 
 .slide-content * {
   padding-top: 2em;
 }
 .fa-star{
   color: #14a800;
+}
+
+.upwork {
+  color: #14a800;
+}
+
+.upwork-pitch {
+  margin: 5% 0px 5% 0px;
 }

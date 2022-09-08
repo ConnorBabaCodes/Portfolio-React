@@ -22,7 +22,7 @@ export default function Projects() {
     })
     
     return (
-        <section className="projects-section">
+        <section id="projects" className="projects-section">
             <h1>PROJECTS</h1>
             <div className="project-container">{projectElements}</div>
         

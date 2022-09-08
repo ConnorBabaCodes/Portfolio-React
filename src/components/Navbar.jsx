@@ -8,19 +8,13 @@ export default function Navbar() {
                 <div className="nav-buttons">
                 <ul>
                     <li>
-                        <a className ="nav-hover" href="#">Projects</a>
+                        <a className ="nav-hover" href="#projects">Projects</a>
                     </li>
                     <li>
-                    <a className ="nav-hover" href="#">About</a>
+                    <a className ="nav-hover" href="#testimonials">Testimonials</a>
                     </li>
                     <li>
-                    <a className ="nav-hover" href="#">Testimonials</a>
-                    </li>
-                    <li>
-                    <a className ="nav-hover" href="#">Contact</a>
-                    </li>
-                    <li>
-                    <a className ="nav-hover" href="#">Resume</a>
+                    <a className ="nav-hover" href="#contact">Contact</a>
                     </li>
                     <li>
                         Dark Mode

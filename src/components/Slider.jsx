@@ -10,7 +10,7 @@ export default function Slider() {
     return <SwiperSlide className="slide">
     <div className="slide-content">
       <h2>{testimonial.job}</h2>
-      <p>{testimonial.content}</p>
+      <p className="testimonial-content">{testimonial.content}</p>
       <div className="star-container">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>

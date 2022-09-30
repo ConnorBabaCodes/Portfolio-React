@@ -5,15 +5,25 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import useLocalStorage from 'use-local-storage'
+import '/src/index.css'
 
 
 function App() {
 
+  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
+
+
+    const switchTheme = () => {
+        const newTheme = theme === 'light' ? 'dark' : 'light';
+        console.log(theme)
+        setTheme(newTheme)
+    }
 
   return (
-    <div className="App">
+    <div className="app" data-theme={theme}>
       
-     <Navbar />
+     <Navbar handleClick={switchTheme} />
      <Hero />
      <Projects />
      <Testimonials />

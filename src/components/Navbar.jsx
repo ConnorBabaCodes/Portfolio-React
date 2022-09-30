@@ -1,7 +1,13 @@
 import React from 'react'
-import DarkMode from '/src/assets/darkmode'
+import useLocalStorage from 'use-local-storage'
+import Moon from '/src/components/svgs/Moon'
 
-export default function Navbar() {
+
+
+export default function Navbar(props) {
+    
+
+
     return (
         <header>
         <nav>
@@ -17,8 +23,8 @@ export default function Navbar() {
                     <li>
                     <a className ="nav-hover" href="#contact">Contact</a>
                     </li>
-                    <li>
-                        <DarkMode />
+                    <li className='theme-toggle' onClick={props.handleClick}>
+                    <Moon />
                     </li>
                 </ul>
                

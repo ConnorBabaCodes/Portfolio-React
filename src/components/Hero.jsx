@@ -1,4 +1,6 @@
 import React from 'react'
+import Linkedin from '/src/components/svgs/Linkedin'
+import Github from '/src/components/svgs/Github'
 
 export default function Hero() {
     return (
@@ -13,10 +15,10 @@ export default function Hero() {
                         <a>Resume</a>
                         </li>
                         <li>
-                        <a href="https://github.com/ConnorBabaCodes" target="_blank"><i className="fa-brands fa-github fa-xl"></i></a>
+                        <a href="https://github.com/ConnorBabaCodes" target="_blank"><Github/></a>
                         </li>
                         <li>
-                        <a href="https://www.linkedin.com/in/connorbaba/" target="_blank" ><i className="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/connorbaba/" target="_blank" ><Linkedin /></a>
                         </li>
                     </ul>
                 </div>

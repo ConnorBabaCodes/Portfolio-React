@@ -1,4 +1,6 @@
 import React from 'react'
+import Email from '/src/components/svgs/Email'
+import Linkedin from '/src/components/svgs/Linkedin'
 
 
 export default function Contact() {
@@ -9,12 +11,12 @@ export default function Contact() {
             <div className="contact-container">
             
             <div className="contact-box">
-                <a href="https://www.linkedin.com/in/connorbaba/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/connorbaba/" target="_blank"><Linkedin /></a>
                 <p>Linkedin</p>
             </div>
             <div className="contact-box">
-            <i class="fa-solid fa-envelope fa-2xl"></i>
-                <p>connorjbaba@gmail.com</p>
+            <a href="mailto:connorjbaba@gmail.com"><Email/></a>
+                <p>E-mail</p>
             </div>
 
 

@@ -16,7 +16,8 @@
     "react-leaflet": "^4.0.2",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.3.0",
-    "swiper": "^8.3.2"
+    "swiper": "^8.3.2",
+    "use-local-storage": "^2.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

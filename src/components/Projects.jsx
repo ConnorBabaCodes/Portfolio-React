@@ -16,7 +16,7 @@ export default function Projects() {
                     </p>
                 <div className="demo">
                     <a href={project.github}>&lt; / Code &gt;</a>  
-                    <a href={project.demo}>Demo</a>
+                   {project.demo ? <a href={project.demo}>Demo</a> : ""} 
                 </div>
         </div> 
     })

@@ -1,36 +1,66 @@
 :root {
-  --main-accent: rgb(8, 32, 109);
-  --white: white;
-
+  --main-accent: #a30fdd;
+  --text-primary: #555;
+  --background: #fdfdfd;
+  --text-secondary: #555;
+  --header-text: #9c9c9c;
+  --background-secondary: #f1f1f1;
+  --text-tertiary: rgb(255, 232, 27);
+  --swiper-theme-color: #a30fdd;
+  --accent-secondary: #220025;
+  --html: rgb(219, 0, 0);
+  --css: #0d0dcf;
+  --js: rgb(196, 140, 0);
+  --react: #00a2ca;
+  --upwork: #14a800;
+  --hover1: #c940ff;
+  --hover2: #29003b;
 }
+
+[data-theme='dark'] {
+  --background: #282828;
+  --text-primary: #BFBFBF;
+  --main-accent: #1fcad6;
+  --text-secondary: #a30fdd;
+  --header-text: #BFBFBF;
+  --background-secondary: #212124;
+  --text-tertiary: white;
+  --swiper-theme-color: rgb(34,196,207);
+  --accent-secondary:  #ffffff;
+  --html: rgb(230, 66, 66);
+  --css: #6565eb;
+  --js: rgb(212, 179, 95);
+  --react: #8bd3e6;
+  --upwork: #4dbe3e;
+  --hover1: #1fcad6;
+  --hover2: #d3d3d3;
+}
+
 
 * {
   margin: 0;
   padding: 0;
   font-family: inter;
-  color: #555;
+  color: var(--text-primary);
+
+  z-index: 0;
 }
 
-body {
+body{
   width: 100vw;
   color: var(--text-color);
-  background: var(--background-color)
+  
+  
   
 }
 
-/*light mode*/
+.app {
+ background-color: var(--background);
+ transition: 1s;
 
-body.light {
-  --background-color: var(--white);
-  --text-color: var(#555);
 }
-
-body.dark {
-  --background-color: var(purple);
-  --text-color: var(var(--white))
-}
-
 /*General*/
+
 
 
 section {
@@ -48,20 +78,60 @@ section h1 {
 }
 
 
+/* SVGS */
+svg {
+  width: 40px;
+  height: 40px;
+  fill: var(--text-primary);
+  transition: .5s;
+  
+}
+
+.moon {
+  width: 30px;
+  height: 30px;
+}
+
+.moon:hover {
+  cursor: pointer;
+  fill: var(--main-accent);
+  transition: .5s;
+  
+  
+}
+
+.linkedin:hover {
+  fill: #0072b1;
+  
+}
+
+.github:hover {
+  fill: #34b800;
+  
+}
+
+.email:hover {
+  fill: var(--main-accent)
+}
+
 /*Navigation*/
 
 header {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: var(--background);
   padding-bottom: 5px;
+  z-index: 1;
+  transition: 1s;
+  
 }
 
 nav {
   display: flex;
   padding-top: 3vh;
   justify-content: space-around;
+  
 }
 
 .nav-buttons {
@@ -87,16 +157,17 @@ ul {
 
 }
 
-a {
+li a {
   text-decoration: none;
   position: relative;
+  color: var(--header-text)
 }
 
 ul li a:before {
   content: "";
   width: 0;
   height: 5px;
-  background-color: #00bcd4;
+  background-color: var(--hover2);
   position: absolute;
   top: 120%;
   left: 0;
@@ -107,7 +178,7 @@ ul li a:after {
   content: "";
   width: 0;
   height: 5px;
-  background-color: #f0f;
+  background-color: var(--hover1);
   position: absolute;
   top: 120%;
   right: 0;
@@ -125,9 +196,11 @@ ul li a:hover:after {
 }
 
 a:hover {
-  color: var(--main-accent);
+  color: var(--accent-secondary);
   transition: .5s;
 }
+
+
 
 /*Hero*/
 
@@ -138,6 +211,7 @@ a:hover {
   max-width: 50%;
   margin: auto;
   margin-bottom: 15%;
+  
 }
 
 .name {
@@ -145,22 +219,22 @@ a:hover {
 }
 
 .HTML {
-  color: red;
+  color: var(--html);
   font-weight: bold;
 }
 
 .CSS {
-  color: blue;
+  color: var(--css);
   font-weight: bold;
 }
 
 .js {
-  color: goldenrod;
+  color: var(--js);
   font-weight: bold;
 }
 
 .react {
-  color: #61DBFB;
+  color: var(--react);
   font-weight: bold;
 }
 
@@ -188,14 +262,11 @@ a:hover {
 }
 
 .fa-github:hover {
-  color: #6fda44;
+  color: #34b800;
   transition: .2s;
 }
 
-.fa-linkedin:hover {
-  color: #0072b1;
-  transition: .2s;
-}
+
 
 /*Projects*/
 
@@ -204,8 +275,8 @@ a:hover {
 }
 
 .project-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 50px;
   margin: 10%;
   
@@ -214,7 +285,10 @@ a:hover {
 }
 
 
-
+.project {
+  background-color: var(--background-secondary);
+  color: var(--text-tertiary)
+}
 
 .project {
   padding: 2em;
@@ -239,18 +313,22 @@ a:hover {
 
 /*Testimonial*/
 
+
+
 #testimonials h1 {
   padding-top: 5%;
 }
 .slider {
   margin: auto;
   width: 80%;
+  
 }
 
 .slide {
   text-align: center;
   margin: 12% auto;
   width: 60%;
+  
 }
 
 .testimonial-content {
@@ -262,11 +340,11 @@ a:hover {
   padding-top: 2em;
 }
 .fa-star{
-  color: #14a800;
+  color: var(--upwork);
 }
 
 .upwork {
-  color: #14a800;
+  color: var(--upwork);
 }
 
 .upwork-pitch {
@@ -274,7 +352,12 @@ a:hover {
 }
 
 
+
 /*Contact*/
+
+#contact {
+  margin-top: 10%;
+}
 
 #contact h3 {
   margin: 5% 0 5% 0;

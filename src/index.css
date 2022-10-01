@@ -315,6 +315,11 @@ a:hover {
   border-radius: 5px;
 }
 
+.project img:hover {
+  opacity: .5;
+  transition: .75s;
+}
+
 .project h2 {
   margin: 1rem;
 }
@@ -504,13 +509,16 @@ footer {
 
   .project {
     max-width: 350px;
-
+ 
   }
 
   .project img {
     width: 300px;
     height: 150px;
+    
   }
+
+  
 
   #testimonials h1 {
     margin-bottom: 10%;

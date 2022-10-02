@@ -7,7 +7,7 @@ import projectData from '/src/assets/projectdata.js'
 export default function Projects() {
     const projectElements = projectData.map(project => {
         return <div className="project">
-           <a href={project.demo ? project.demo : project.github} target="_blank"><img src={project.img} /></a>
+           <a href={project.demo ? project.demo : project.github} target="_blank"><img src={project.smallimg} srcSet={`${project.smallimg} 868w, ${project.img} 1200w`} /></a>
                 <h2>
                     {project.name}
                     </h2>

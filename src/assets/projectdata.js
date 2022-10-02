@@ -1,7 +1,8 @@
 export default [
     {
         id: 1,
-        img: "/SousImg.png",
+        img: "/SousImg-500x250.png",
+        smallimg: "/SousImg-300x150.png",
         name: "Sous-Chef Web App",
         description: "Recipe websites always drone on before getting to the details...after getting through the popups. I made Sous-Chef with the Edamam API to find dinner ideas faster",
         HTML: true,
@@ -15,7 +16,8 @@ export default [
     },
     {
         id: 2,
-        img: "/ChatImg.png",
+        img: "/ChatImg-500x250.png",
+        smallimg: "/ChatImg-300x150.png",
         name: "React Chat App",
         description: "A full stack Chat App using firebase as a backend database, and react to rerender components as new messages are updated to the database",
         HTML: true,
@@ -30,7 +32,8 @@ export default [
     },
     {
         id: 3,
-        img: "/TenziImg.png",
+        img: "/TenziImg-500x250.png",
+        smallimg: "/TenziImg-300x150.png",
         name: "Tenzi Web App",
         description: "A small dice rolling game made with react. It features the useState method as way to keep track of held and unheld dice.",
         HTML: true,
@@ -44,7 +47,8 @@ export default [
     },
     {
         id: 4,
-        img: "PortfolioImg.png",
+        img: "/PortfolioImg-500x250.png",
+        smallimg: "/Portfolio-300x150.png",
         name: "ConnorBabaCode.dev",
         description: "I built my own portfolio from scratch with React.  I drew the design elements from several inspirations.",
         HTML: true,

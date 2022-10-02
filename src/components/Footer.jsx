@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from '/Connor Baba Resume.pdf'
 
 export default function Footer() {
 return (
@@ -15,7 +16,7 @@ return (
                     <a className ="nav-hover" href="#contact">Contact</a>
                     </li>
                     <li>
-                    <a className="nav-hover" href="/Connor Baba Resume.pdf" target="_blank">Resume</a>
+                    <a className="nav-hover" href={Resume} target="_blank">Resume</a>
                     </li>
                 </ul>
                

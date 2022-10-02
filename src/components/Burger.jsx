@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from '/Connor Baba Resume.pdf'
 
 export default function Burger() {
 

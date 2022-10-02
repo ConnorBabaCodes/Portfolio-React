@@ -613,6 +613,10 @@ header {
 .nav-buttons {
   display: none;
 }
+
+.show {
+  display: flex;
+}
 .secret-moon {
   display: block;
   position: absolute;

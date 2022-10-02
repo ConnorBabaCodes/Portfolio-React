@@ -4,7 +4,7 @@ import Resume from '/Connor Baba Resume.pdf'
 export default function Footer() {
 return (
     <footer>
-        <div className="nav-buttons">
+        <div className="nav-buttons show">
                 <ul>
                     <li>
                         <a className ="nav-hover" href="#projects">Projects</a>

@@ -12,7 +12,7 @@ export default function Hero() {
                     <ul>
 
                         <li>
-                        <a href="/public/Connor Baba Resume.pdf" target="_blank">Resume</a>
+                        <a href="/Connor Baba Resume.pdf" target="_blank">Resume</a>
                         </li>
                         <li>
                         <a href="https://github.com/ConnorBabaCodes" target="_blank"><Github/></a>

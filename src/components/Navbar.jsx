@@ -2,7 +2,7 @@ import React from 'react'
 import useLocalStorage from 'use-local-storage'
 import Moon from '/src/components/svgs/Moon'
 import Burger from '/src/components/Burger'
-
+import Resume from '/Connor Baba Resume.pdf'
 
 
 export default function Navbar(props) {
@@ -33,7 +33,7 @@ export default function Navbar(props) {
                     <a className ="nav-hover hide" href="#contact">Contact</a>
                     </li>
                     <li>
-                    <a className="hide" href="/Connor Baba Resume.pdf" target="_blank">Resume</a>
+                    <a className="hide" href={Resume} target="_blank">Resume</a>
                     </li>
                     <li className='theme-toggle' onClick={props.handleClick}>
                     <Moon />

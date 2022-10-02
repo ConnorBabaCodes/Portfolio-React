@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '/Connor Baba Resume.pdf'
+import Resume from '/public/Connor Baba Resume.pdf'
 
 export default function Footer() {
 return (

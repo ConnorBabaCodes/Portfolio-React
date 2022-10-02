@@ -1,7 +1,7 @@
 import React from 'react'
 import Linkedin from '/src/components/svgs/Linkedin'
 import Github from '/src/components/svgs/Github'
-import Resume from '/Connor Baba Resume.pdf'
+import Resume from '/public/Connor Baba Resume.pdf'
 
 export default function Hero() {
     return (

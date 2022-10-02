@@ -2,7 +2,7 @@ import React from 'react'
 import useLocalStorage from 'use-local-storage'
 import Moon from '/src/components/svgs/Moon'
 import Burger from '/src/components/Burger'
-import Resume from '/Connor Baba Resume.pdf'
+import Resume from '/public/Connor Baba Resume.pdf'
 
 
 export default function Navbar(props) {

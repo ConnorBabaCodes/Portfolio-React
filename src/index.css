@@ -617,6 +617,10 @@ header {
 .show {
   display: flex;
 }
+
+.show ul li a {
+  font-size: .7rem;
+}
 .secret-moon {
   display: block;
   position: absolute;

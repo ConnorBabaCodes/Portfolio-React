@@ -666,6 +666,14 @@ nav ul {
 
 @media screen and (max-width: 868px) {
 
+
+    #hero h1 {
+      font-size: 1.8em;
+    }
+    #hero h2 {
+      font-size: 1em;
+    }
+
   .project-container {
     gap: 150px;
     margin-bottom: 30%;

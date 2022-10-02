@@ -48,7 +48,7 @@ export default [
     {
         id: 4,
         img: "/PortfolioImg-500x250.png",
-        smallimg: "/Portfolio-300x150.png",
+        smallimg: "/PortfolioImg-300x150.png",
         name: "ConnorBabaCode.dev",
         description: "I built my own portfolio from scratch with React.  I drew the design elements from several inspirations.",
         HTML: true,

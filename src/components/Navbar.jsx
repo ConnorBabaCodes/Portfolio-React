@@ -32,6 +32,9 @@ export default function Navbar(props) {
                     <li className="hide">
                     <a className ="nav-hover hide" href="#contact">Contact</a>
                     </li>
+                    <li>
+                    <a className="hide" href="/public/Connor Baba Resume.pdf" target="_blank">Resume</a>
+                    </li>
                     <li className='theme-toggle' onClick={props.handleClick}>
                     <Moon />
                     </li>

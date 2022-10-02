@@ -14,6 +14,9 @@ return (
                     <li>
                     <a className ="nav-hover" href="#contact">Contact</a>
                     </li>
+                    <li>
+                    <a className="nav-hover" href="/public/Connor Baba Resume.pdf" target="_blank">Resume</a>
+                    </li>
                 </ul>
                
                 </div>

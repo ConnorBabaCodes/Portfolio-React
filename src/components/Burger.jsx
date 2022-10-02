@@ -23,6 +23,9 @@ export default function Burger() {
             <li onClick={menuOnClick}><a href="#projects">Projects</a></li>
             <li onClick={menuOnClick}><a href="#testimonials">Testimonials</a></li>
             <li onClick={menuOnClick}><a href="#contact">Contact</a></li>
+            <li>
+                    <a onClick={menuOnClick} href="/public/Connor Baba Resume.pdf" target="_blank">Resume</a>
+                    </li>
           </ul>
         </nav> 
       </div>

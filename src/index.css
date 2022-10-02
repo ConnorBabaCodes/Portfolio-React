@@ -16,6 +16,7 @@
   --upwork: #14a800;
   --hover1: #c940ff;
   --hover2: #29003b;
+  --hover3: #282828;
 }
 
 [data-theme='dark'] {
@@ -34,8 +35,9 @@
   --react: #8bd3e6;
   --firebase: #d18c4b;
   --upwork: #4dbe3e;
-  --hover1: #1fcad6;
+  --hover1: #25e2f0;
   --hover2: #d3d3d3;
+  --hover3: #282828;
 }
 
 
@@ -209,6 +211,119 @@ a:hover {
   color: var(--accent-secondary);
   transition: .5s;
 }
+
+.secret-moon {
+  display: none;
+}
+
+
+
+/*Burger Menu*/
+
+
+.burger-menu {
+  display: none;
+}
+
+.menu-bg {
+  display: none;
+}
+
+
+#menu {
+  z-index: 2;
+}
+
+#menu-bar {
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: var(--main-accent);
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.burger {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.burger ul {
+  padding: 0 22px;
+}
+
+.burger li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.burger li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.burger li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, var(--main-accent), var(--main-accent));
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+}
+
 
 
 
@@ -472,6 +587,52 @@ footer {
 
 
 @media screen and (max-width: 1000px) {
+
+
+header {
+  z-index: 1;
+  background: transparent;
+}
+
+.burger-menu {
+  display: block;
+}
+
+.menu-bg {
+  display: block;
+  z-index: 1;
+}
+
+.hide {
+  display: none;
+}
+
+.nav-buttons {
+  display: none;
+}
+.secret-moon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 24px 50px 20px 0px
+}
+
+.home {
+  display: none;
+}
+
+nav ul {
+  flex-direction: column;
+  gap: 0px;
+}
+
+
+.burger ul li a:hover {
+  color: var(--hover3) !important
+}
+
+
 
 #hero {
   max-width: 80%;

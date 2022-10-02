@@ -51,7 +51,7 @@
 }
 
 body{
-  width: 100vw;
+ 
   color: var(--text-color);
   
   
@@ -468,6 +468,8 @@ a:hover {
   padding-top: 5%;
   
 }
+
+
 .slider {
   margin: auto;
   margin-top: 4rem;
@@ -480,8 +482,8 @@ a:hover {
 
 .slide {
   text-align: center;
-  margin: 12% auto;
-  width: 60%;
+
+  width: 70%;
  
  
 }
@@ -509,6 +511,7 @@ a:hover {
 
 .stars {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -591,7 +594,7 @@ footer {
 
 header {
   z-index: 1;
-  background: transparent;
+  min-height: 60px;
 }
 
 .burger-menu {
@@ -615,7 +618,7 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 24px 50px 20px 0px
+  margin: 21px 50px 20px 0px
 }
 
 .home {
@@ -669,7 +672,7 @@ nav ul {
   }
 
   .project {
-    max-width: 350px;
+    max-width: 300px;
  
   }
 
@@ -687,7 +690,7 @@ nav ul {
 
 
   .slider {
-    margin: auto;
+    margin: 0;
     width: 90%;
     
   }

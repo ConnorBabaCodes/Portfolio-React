@@ -522,8 +522,9 @@ a:hover {
   margin-top: 10%;
 }
 
-#contact h3 {
+#contact h2 {
   margin: 5% 0 5% 0;
+  font-size: 1rem;
 }
 .contact-container {
   display: flex;
@@ -646,7 +647,7 @@ nav ul {
 
 
 #hero {
-  max-width: 80%;
+  max-width: 90%;
   margin-bottom: 50%;
 }
 

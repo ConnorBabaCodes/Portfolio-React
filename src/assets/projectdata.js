@@ -50,7 +50,7 @@ export default [
         img: "/PortfolioImg-500x250.png",
         smallimg: "/PortfolioImg-300x150.png",
         name: "ConnorBabaCode.dev",
-        description: "I built my own portfolio from scratch with React.  I drew the design elements from several inspirations. All categories on google lighthouse score between 90 and 100 when diagnostic is run in incognito mode.",
+        description: "I built my own portfolio from scratch with React.  I drew the design elements from several inspirations. All categories on google lighthouse score between 90 and 100 when diagnostic is run in incognito mode or without chrome extensions.",
         HTML: true,
         CSS: true,
         JS: true,

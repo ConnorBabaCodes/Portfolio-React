@@ -7,15 +7,15 @@ export default function Contact() {
     return (
         <section id="contact">
             <h1>Contact</h1>
-            <h3>You can reach me at these places</h3>
+            <h2>You can reach me at these places</h2>
             <div className="contact-container">
             
             <div className="contact-box">
-                <a href="https://www.linkedin.com/in/connorbaba/" target="_blank"><Linkedin /></a>
+                <a href="https://www.linkedin.com/in/connorbaba/" aria-label="linkedin" target="_blank"><Linkedin /></a>
                 <p>Linkedin</p>
             </div>
             <div className="contact-box">
-            <a href="mailto:connorjbaba@gmail.com"><Email/></a>
+            <a href="mailto:connorjbaba@gmail.com" aria-label="email"><Email/></a>
                 <p>E-mail</p>
             </div>
 

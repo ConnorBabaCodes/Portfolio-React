@@ -16,10 +16,10 @@ export default function Hero() {
                         <a href={Resume} target="_blank">Resume</a>
                         </li>
                         <li>
-                        <a href="https://github.com/ConnorBabaCodes" target="_blank"><Github/></a>
+                        <a href="https://github.com/ConnorBabaCodes" aria-label="github" target="_blank"><Github/></a>
                         </li>
                         <li>
-                        <a href="https://www.linkedin.com/in/connorbaba/" target="_blank" ><Linkedin /></a>
+                        <a href="https://www.linkedin.com/in/connorbaba/" aria-label="linkedin" target="_blank" ><Linkedin /></a>
                         </li>
                     </ul>
                 </div>
